@@ -18,9 +18,15 @@ This approach would have each row evaluated 12 times, once for each stock. With 
 The new code eliminated the need of the inner loop. We created data arrays where we could store data specific to that stock as we evaluated each row. This eliminated the need to loop through the entire data set every time to evaluate each new stock. This shortened are code cycle time to .117 and .113 for years 2017 and 2018 respectively.
 
 
-## Results
+## Summary
+
+### Advantages of refactoring
 The refactoring allowed us to reduce the run time of the code significantly from .7 seconds to .1. This was accomplished through adding the Array variables. With the array variables set up. We could store data specific to that stock versus waiting until the end of our loop and printing out.
 
+### Disadvantage of refactoring
+A disadvantage to refactoring was the code was a little more challenging to follow.
+
+### Conclusion of increased speed of code
 By eliminate the need for the second for loop. We no longer were revisiting our data multiple times. This is what reduced the run time on our VBA code.
 
 
