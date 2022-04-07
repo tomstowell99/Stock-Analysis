@@ -26,7 +26,8 @@ The refactoring allowed us to reduce the run time of the code significantly from
 ### Disadvantage of refactoring
 A disadvantage to refactoring was the code was a little more challenging to follow.
 
-### Conclusion of increased speed of code
-By eliminate the need for the second for loop. We no longer were revisiting our data multiple times. This is what reduced the run time on our VBA code.
+### Conclusion speed of code improvement
+By eliminating the need for the second for loop. We no longer were revisiting our data multiple times. This is what reduced the run time on our VBA code.
+I believe this will be an important concept for clean programming going forward as we work with larger data sets.
 
 
